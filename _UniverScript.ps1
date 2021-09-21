@@ -22,7 +22,7 @@
         12. CrFile            / OBJ                                 / Creates a file (path is also created if not exists)
         13. CrFileWithContent / OBJ,  CNT                           / Creates a file and writes a content in it. If the file exists it's adding new lines - Args: full path of the file to create, array with lines to write
         14. CrFld             / OBJ                                 / Creates a folder
-        15. CrOILog           /                                     / Creates installation according to $script:LogPath variable specified in the beginning of the script
+        15. CrLog           /                                     / Creates installation according to $script:LogPath variable specified in the beginning of the script
         16. CrShortcut        / PTH,  SCM,  TRG,  ICO^              / Creates new shortcut in specified location. If path does not exists it's created automatically.
         17. CompFileVer       / OBJ,  VER                           / Compares file versions - selected file to version specified in the second parameter.
         18. CrReg             / REG,  RNV^                          / Creates registry key and keyname, keyvalue (if specified). The second optional argument RNV must be a 2-DIMENSIONAL ARRAY.
