@@ -6,7 +6,7 @@ Function Write-Log {
         [ValidateSet(0, 1, 2, 3, 4, 5, 6)]
         [int]$Type = 0,
         [Parameter(Position=2)]
-        [string]$LogFolder = "$Env:SystemDrive/O-I/logs",
+        [string]$LogFolder = "$Env:SystemDrive/logs",
         [Parameter(Position=3)]
         [string]$lTW = $LogPath
     )
